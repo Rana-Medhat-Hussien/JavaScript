@@ -14,7 +14,7 @@ while (true) {
     let userInput = prompt("Enter today's temperature:");
     todayTemp = parseFloat(userInput); // Convert input to a number
 
-    if (!isNaN(todayTemp) && todayTemp.trim() !== "") {
+    if (!isNaN(todayTemp)) {
         // Break the loop if the input is a valid number
         break;
     } else {
